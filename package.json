@@ -1,0 +1,24 @@
+{
+  "name": "fullstack_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimtrangbu/begin-with-nodejs-reactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimtrangbu/begin-with-nodejs-reactjs/issues"
+  },
+  "homepage": "https://github.com/chimtrangbu/begin-with-nodejs-reactjs#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
